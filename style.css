@@ -12,6 +12,12 @@ body {
 }
 
 @media screen and (max-width: 800px){
+
+  .logo{
+    width: 15%;
+    margin: 3%;
+  
+  }
   
 }
 
