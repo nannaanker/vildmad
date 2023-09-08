@@ -54,6 +54,8 @@ li{
   margin: 0;
 }
 
+/******************** startside *******************/
+
 /* index main */
 .grid-container {
   display: grid;
@@ -82,10 +84,28 @@ li{
   transform: scale(2);
 }
 
-a {
-  text-decoration: none;
-  color: black;
+
+.map-container {
+  display: flex;
+  justify-content: center;
 }
+
+.map
+{
+width: 60%;
+margin-top: 10%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.havtorn {
+  width: 10%;
+}
+
+
 
 .strand_img {
   display: flex;
@@ -109,6 +129,9 @@ a {
 main {
   padding: 5%;
 }
+
+
+/*************************** mobil **************************/
 
 @media screen and (max-width: 800px) {
   .logo {
