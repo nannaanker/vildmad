@@ -11,6 +11,38 @@ body {
   margin: 3%;
 }
 
+h1{
+  font-family: 'Handlee', cursive;
+  color: rgb(23, 84, 23);
+  font-size: 2.5rem;
+  text-align: center;
+  }
+
+  h2, h3{
+    font-family: 'Handlee', cursive;
+    color: rgb(23, 84, 23);
+    text-align: center;
+   
+  }
+
+
+
+p,a {
+  font-family: 'Handlee', cursive;
+  font-size: 1.5rem;
+ 
+}
+p{
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 10%;
+}
+
+li{
+  list-style: none;
+}
+
+
 
 .footer {
   background-image: url(billeder/SVG/strand.webp);
@@ -34,8 +66,8 @@ body {
 }
 
 .circle {
-  width: 100px; /* Set the width and height to create a circle */
-  height: 100px;
+  width: 130px; /* Set the width and height to create a circle */
+  height: 130px;
   border-radius: 50%; /* Make it circular */
   overflow: hidden; /* Hide overflow content (in case the image is larger) */
   margin: 0 auto; /* Center the circle within the grid item */
@@ -72,14 +104,7 @@ a {
   padding: 20%;
 }
 
-h1,
-h2,
-h3,
-p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
+
 
 main {
   padding: 5%;
