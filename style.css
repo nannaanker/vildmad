@@ -11,6 +11,8 @@ body {
   margin: 3%;
 }
 
+h2{color: red;}
+
 .footer {
   background-image: url(billeder/SVG/strand.webp);
   background-size: 100%;
