@@ -14,9 +14,30 @@ body {
 h1 {
   font-family: "Handlee", cursive;
   color: rgb(23, 84, 23);
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
-}
+  font-weight: bold;
+  }
+
+  h2{
+    font-family: 'Handlee', cursive;
+    color: rgb(23, 84, 23);
+    text-align: center;
+    font-size: 2rem;
+   
+  }
+
+  h3{
+    font-family: 'Handlee', cursive;
+    color: rgb(23, 84, 23);
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    font-size: 1.7rem;
+  }
+
+ 
+
 
 h2,
 h3 {
@@ -25,14 +46,17 @@ h3 {
   text-align: center;
 }
 
-p,
-a {
-  font-family: "Handlee", cursive;
-  font-size: 1.5rem;
+p,a {
+  font-family: 'Handlee', cursive;
+  font-size: 1.6rem;
+ 
 }
-p {
-  margin-left: 20%;
-  margin-right: 20%;
+p{
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: 10%;
+margin-top: 1%;
+color: rgb(48, 48, 48);
 }
 
 li {
@@ -79,14 +103,21 @@ li {
   transform: scale(2);
 }
 
+.ingrediens_navn{
+  margin-bottom: 1%;
+}
+
+
 .map-container {
   display: flex;
   justify-content: center;
 }
 
-.map {
-  width: 60%;
-  margin-top: 10%;
+.map
+{
+width: 45%;
+margin-top: 5%;
+margin-bottom: 10%;
 }
 
 .image-container {
@@ -95,7 +126,9 @@ li {
 }
 
 .havtorn {
-  width: 10%;
+  width: 20%;
+  margin-bottom: 10%;
+  margin-top: 2%;
 }
 
 .strand_img {
@@ -127,3 +160,4 @@ main {
     margin: 3%;
   }
 }
+
