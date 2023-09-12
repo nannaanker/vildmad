@@ -93,28 +93,9 @@ a {
   margin: 0;
 }
 
-.type {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 5px;
-}
+/* dropdown */
 
-.row {
-  flex-basis: 48%; /* Adjust the width of columns */
-  flex-grow: 1;
-  margin-bottom: 20px; /* Add margin between rows */
-  margin-top: 20px;
-}
-
-.column {
-  margin: 10px;
-  padding: 20px;
-  border: 1px solid #f1f8f3;
-  border-radius: 5px;
-  background-color: #f1f8f3;
-}
-
+/* ........................ */
 ul {
   list-style-type: none;
   padding: 0;
@@ -261,28 +242,9 @@ nav.MainNav a:hover {
     text-decoration: none;
     color: black;
   }
+  /* grid til container  */
 
-  .type {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Distribute columns evenly */
-    gap: 5px; /* Add spacing between columns and rows */
-  }
-
-  .row {
-    flex-basis: 28%; /* Adjust the width of columns */
-    flex-grow: 2;
-    margin-bottom: 20px; /* Add margin between rows */
-    margin-top: 20px;
-  }
-
-  .column {
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #f1f8f3;
-
-    background-color: #f1f8f3;
-  }
+  /*  */
 
   ul {
     list-style-type: none;
@@ -303,24 +265,32 @@ nav.MainNav a:hover {
     font-weight: bold;
   }
 
+  /* dropdown */
+  .dropdown-content {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
   .recipe-section {
-    padding: 10px; /* Juster padding på små skærme */
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
   }
   .ingredients,
   .categories {
-    margin-bottom: 10px; /* Juster marginen på små skærme */
+    margin-bottom: 10px;
   }
   ol {
-    counter-reset: my-counter; /* Reset the counter for the ordered list */
-    list-style-type: none; /* Remove default numbering */
+    counter-reset: my-counter;
+    list-style-type: none;
   }
 
   li {
-    counter-increment: my-counter; /* Increment the counter for each list item */
-    margin-bottom: 10px; /* Add spacing between list items */
+    counter-increment: my-counter;
+    margin-bottom: 10px;
     text-align: justify;
   }
 
